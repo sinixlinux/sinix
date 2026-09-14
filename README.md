@@ -1,5 +1,3 @@
-![logo](logo2transparent.png)
-
 sinix
 ==
 Gentoo with VXWM and some UX quirks.
