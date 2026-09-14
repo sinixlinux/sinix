@@ -1,4 +1,4 @@
-![logo](logo.png)
+![logo](logo2transparent.png)
 
 sinix
 ==
