@@ -32,7 +32,7 @@ Artix with VXWM and some UX quirks.
 <details>
 <summary> Roadmap </summary>
 
- - [ ] Install artix
+ - [x] Install artix
 
  - [ ] Set up Limine bootloader
 
