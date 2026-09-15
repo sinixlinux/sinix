@@ -34,6 +34,8 @@ Artix with VXWM and some UX quirks.
 
  - [ ] Install artix
 
+ - [ ] Set up Limine bootloader
+
  - [ ] Set up s6 and dependencies
 
  - [ ] Set up X11 libraries and fixes
