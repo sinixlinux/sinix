@@ -10,11 +10,17 @@ Artix with VXWM and some UX quirks.
 | Kernel | Linux |
 | Distro | Sinix Linux |
 | Distro Type | Artix-based |
+| Init System | s6 |
+| Bootloader | Limine |
+| Greeter | ly |
+| Display Manager | ly |
 | Desktop | VXWM |
 | Dotfiles | /talantvacheslav/vxwmdots |
 | Notifications | dunst |
 | App Launcher | Rofi |
 | Terminal | Kitty |
+| Shell | rc |
+| Text Editor | neovim |
 </details>
 
 <details>
@@ -27,6 +33,10 @@ Artix with VXWM and some UX quirks.
 <summary> Roadmap </summary>
 
  - [ ] Install artix
+
+ - [ ] Set up s6 and dependencies
+
+ - [ ] Set up X11 libraries and fixes
        
  - [ ] Set up the development environment so we can start making Sinix
        
