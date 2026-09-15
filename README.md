@@ -1,6 +1,6 @@
 sinix
 ==
-Gentoo with VXWM and some UX quirks.
+Artix with VXWM and some UX quirks.
 
 <details>
 <summary> Information </summary>
@@ -9,11 +9,11 @@ Gentoo with VXWM and some UX quirks.
 | :--- | :--- |
 | Kernel | Linux |
 | Distro | Sinix Linux |
-| Distro Type | Gentoo-based |
+| Distro Type | Artix-based |
 | Desktop | VXWM |
 | Dotfiles | /talantvacheslav/vxwmdots |
 | Notifications | dunst |
-| App Launcher | Rofi
+| App Launcher | Rofi |
 | Terminal | Kitty |
 </details>
 
@@ -26,11 +26,13 @@ Gentoo with VXWM and some UX quirks.
 <details>
 <summary> Roadmap </summary>
 
- - [ ] Install gentoo
+ - [ ] Install artix
        
  - [ ] Set up the development environment so we can start making Sinix
        
  - [ ] Set up dotfiles
+
+ - [ ] Set up UX and rest
        
  - [ ] Make a installer
   
