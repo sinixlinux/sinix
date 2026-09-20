@@ -1,6 +1,7 @@
 sinix
 ==
-Artix with VXWM and some UX quirks.
+
+declarative arch
 
 <details>
 <summary> Information </summary>
@@ -9,9 +10,9 @@ Artix with VXWM and some UX quirks.
 | :--- | :--- |
 | Kernel | Linux |
 | Distro | Sinix Linux |
-| Distro Type | Artix-based |
+| Distro Type | Arch-based |
 | Init System | dinit |
-| Bootloader | ??? |
+| Bootloader | rEFInd |
 | Greeter | ly |
 | Display Manager | ly |
 | Desktop | VXWM |
@@ -20,7 +21,7 @@ Artix with VXWM and some UX quirks.
 | App Launcher | Rofi |
 | Terminal | Kitty |
 | Shell | rc |
-| Text Editor | neovim |
+| Text Editor | neovim/nano |
 </details>
 
 <details>
@@ -32,7 +33,7 @@ Artix with VXWM and some UX quirks.
 <details>
 <summary> Roadmap </summary>
 
- - [x] Install artix
+ - [x] Install arch
 
  - [ ] Set up dinit and dependencies 
 
@@ -52,4 +53,4 @@ Artix with VXWM and some UX quirks.
 
 dotfiles — <https://github.com/sinixlinux/dots> (fork of <https://github.com/talantvacheslav/vxwmdots>)
 
-Sinix's parent distro — <https://artixlinux.org/> (arch but no systemd)
+Sinix's parent distro — <https://archlinux.org/>
