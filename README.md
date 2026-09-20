@@ -51,4 +51,5 @@ Artix with VXWM and some UX quirks.
 ### MORE LINKS >>>>
 
 dotfiles — <https://github.com/sinixlinux/dots> (fork of <https://github.com/talantvacheslav/vxwmdots>)
+
 Sinix's parent distro — <https://artixlinux.org/> (arch but no systemd)
