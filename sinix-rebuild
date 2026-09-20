@@ -1,0 +1,9 @@
+#!/bin/sh
+
+SRC_DIR="/etc/sinix"
+VXWM_DIR="$SRC_DIR/vxwm/"
+
+echo ":: Rebuilding directories from $SRC_DIR..."
+echo "(*) Rebuilding vxwm... ($VXWM_DIR)"
+cd $VXWM_DIR && sudo make clean install
+echo "[DONE] Rebuilding vxwm..."
