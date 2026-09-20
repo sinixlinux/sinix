@@ -10,7 +10,7 @@ Artix with VXWM and some UX quirks.
 | Kernel | Linux |
 | Distro | Sinix Linux |
 | Distro Type | Artix-based |
-| Init System | s6 |
+| Init System | dinit |
 | Bootloader | Limine |
 | Greeter | ly |
 | Display Manager | ly |
