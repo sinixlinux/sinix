@@ -47,3 +47,8 @@ Artix with VXWM and some UX quirks.
  - [ ] Make a installer
   
 </details>
+
+### MORE LINKS >>>>
+
+dotfiles — <https://github.com/sinixlinux/dots> (fork of <https://github.com/talantvacheslav/vxwmdots>)
+Sinix's parent distro — <https://artixlinux.org/> (arch but no systemd)
