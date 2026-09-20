@@ -11,11 +11,11 @@ Artix with VXWM and some UX quirks.
 | Distro | Sinix Linux |
 | Distro Type | Artix-based |
 | Init System | dinit |
-| Bootloader | Limine |
+| Bootloader | ??? |
 | Greeter | ly |
 | Display Manager | ly |
 | Desktop | VXWM |
-| Dotfiles | /talantvacheslav/vxwmdots |
+| Dotfiles | /sinixlinux/dots |
 | Notifications | dunst |
 | App Launcher | Rofi |
 | Terminal | Kitty |
