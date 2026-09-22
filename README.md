@@ -26,7 +26,7 @@ declarative arch
 
 <details>
 <summary> Documentation </summary>
- - The documentation will be in https://github.com/theskepticpillow/sinix/wiki (W.I.P)
+ *- The documentation will be in https://github.com/theskepticpillow/sinix/wiki (W.I.P)
   
 </details>
 
