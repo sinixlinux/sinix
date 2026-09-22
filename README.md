@@ -35,8 +35,6 @@ declarative arch
 
  - [x] Install arch
 
- - [ ] Set up dinit and dependencies 
-
  - [ ] Set up X11 libraries and fixes
        
  - [ ] Set up the development environment so we can start making Sinix
