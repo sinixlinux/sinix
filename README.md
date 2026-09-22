@@ -51,6 +51,4 @@ declarative arch
 
 ### MORE LINKS >>>>
 
-dotfiles — <https://github.com/sinixlinux/dots> (fork of <https://github.com/talantvacheslav/vxwmdots>)
-
 Sinix's parent distro — <https://archlinux.org/>
