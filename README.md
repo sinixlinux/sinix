@@ -11,16 +11,16 @@ declarative arch
 | Kernel | Linux |
 | Distro | Sinix Linux |
 | Distro Type | Arch-based |
-| Init System | dinit |
-| Bootloader | rEFInd |
+| Init System | Systemd |
+| Bootloader | grub |
 | Greeter | ly |
 | Display Manager | ly |
-| Desktop | VXWM |
-| Dotfiles | /sinixlinux/dots |
+| Desktop | AwesomeWM |
+| Dotfiles | W.I.P |
 | Notifications | dunst |
 | App Launcher | Rofi |
 | Terminal | Kitty |
-| Shell | rc |
+| Shell | fish |
 | Text Editor | neovim/nano |
 </details>
 
