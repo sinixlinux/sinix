@@ -10,7 +10,7 @@ declarative arch
 | :--- | :--- |
 | Kernel | Linux |
 | Distro | Sinix Linux |
-| Distro Type | Arch-based |
+| Distro Type | Arch-based, semi-declarative |
 | Init System | Systemd |
 | Bootloader | grub |
 | Greeter | ly |
@@ -20,7 +20,7 @@ declarative arch
 | Notifications | dunst |
 | App Launcher | Rofi |
 | Terminal | Kitty |
-| Shell | fish |
+| Shell | zsh |
 | Text Editor | neovim/nano |
 </details>
 
