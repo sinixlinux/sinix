@@ -15,7 +15,7 @@ declarative arch
 | Bootloader | grub |
 | Greeter | ly |
 | Display Manager | ly |
-| Desktop | AwesomeWM |
+| Desktop | vxwm |
 | Dotfiles | W.I.P |
 | Notifications | dunst |
 | App Launcher | Rofi |
