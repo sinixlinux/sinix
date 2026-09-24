@@ -1,8 +1,20 @@
-sinix
-==
+<div align="center">
+  
+# 🕳️ sinix
 
-declarative arch
+</div>
 
+### Sinix Linux is an arch-based Linux distro that adds **semi-declarative configuration** and a lightweight, usable **Sway** desktop.
+
+<div align="center">
+  
+  ![a](assets/logo.png)
+
+</div>
+_____________________________________________________________________________________________________________________
+
+
+### Get started:
 <details>
 <summary> Information </summary>
   
@@ -47,6 +59,6 @@ declarative arch
   
 </details>
 
-### MORE LINKS >>>>
+## More links
 
 Sinix's parent distro — <https://archlinux.org/>
