@@ -1,7 +1,8 @@
 return {
 	hostname = "sinix",
-	packages = {
-	},
-	dotfiles = {
+	packages = {},
+	dotfiles = {},
+	services = {
+		NetworkManager = "enabled";
 	}
 }
