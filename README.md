@@ -63,6 +63,7 @@
 
 <details>
 <summary> Features </summary>
+  
   * Semi-declarative: Get the best of both worlds and use declarative and imperative at the same time, like HaliadeOS (formely ZereneOS).
   
   * Sway desktop: Use a pre-configured and cool desktop using Wayland and many other modern programs.
