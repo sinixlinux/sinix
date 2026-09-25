@@ -49,11 +49,9 @@
 
  - [x] Install arch
 
- - [x] Set up Sway and Wayland
+ - [x] Set up Labwc and dots
        
  - [ ] Set up the development environment so we can start making Sinix
-       
- - [ ] Set up dotfiles
 
  - [ ] Set up UX, declaration and rest
        
