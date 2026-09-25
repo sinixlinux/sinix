@@ -1,9 +1,15 @@
 #!/bin/sh
 
-SRC_DIR="/etc/sinix"
-VXWM_DIR="$SRC_DIR/vxwm/"
+SRC_DIR="/etc/sinix/"
 
-echo ":: Rebuilding directories from $SRC_DIR..."
-echo "(*) Rebuilding vxwm... ($VXWM_DIR)"
-cd $VXWM_DIR && sudo make clean install
-echo "[DONE] Rebuilding vxwm..."
+if [ "$EUID" -ne 0 ]; then
+        echo "ABORT: Run this as root or with sudo/doas."
+fi
+
+echo ":: Applying changes..."
+lua /etc/sinix/src/main.lua
+
+echo ":: Overwriting existing /etc/sinix/cfg link with ~/.config..."
+ln -sf /etc/sinix/cfg/ ~/.config
+
+echo ":)"
