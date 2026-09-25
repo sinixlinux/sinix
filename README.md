@@ -6,7 +6,7 @@
 
 <div align="center">
   
-### Sinix Linux is an arch-based Linux distro that adds **semi-declarative configuration** and a lightweight, usable **Sway** desktop.
+### Sinix Linux is an arch-based Linux distro that adds **semi-declarative configuration** and a customized **LabWC** desktop made by my boy hakuimaku.
 
 </div>
 
@@ -29,12 +29,12 @@
 | Bootloader | grub |
 | Greeter | ly |
 | Display Manager | ly |
-| Desktop | vxwm |
-| Dotfiles | W.I.P |
-| Notifications | dunst |
-| App Launcher | Rofi |
-| Terminal | Kitty |
-| Shell | zsh |
+| Desktop | labwc |
+| Dotfiles | hakuspace |
+| Notifications | mako |
+| App Launcher | rofi |
+| Terminal | kitty |
+| Shell | *your choice* |
 | Text Editor | neovim/nano |
 </details>
 
