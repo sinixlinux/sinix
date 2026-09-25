@@ -4,15 +4,17 @@
 
 </div>
 
+<div align="center">
+  
 ### Sinix Linux is an arch-based Linux distro that adds **semi-declarative configuration** and a lightweight, usable **Sway** desktop.
+
+</div>
 
 <div align="center">
   
   ![a](assets/logo.png)
 
 </div>
-_____________________________________________________________________________________________________________________
-
 
 ### Get started:
 <details>
@@ -47,15 +49,23 @@ ________________________________________________________________________________
 
  - [x] Install arch
 
- - [ ] Set up X11 libraries and fixes
+ - [x] Set up Sway and Wayland
        
  - [ ] Set up the development environment so we can start making Sinix
        
  - [ ] Set up dotfiles
 
- - [ ] Set up UX and rest
+ - [ ] Set up UX, declaration and rest
        
  - [ ] Make a installer
+  
+</details>
+
+<details>
+<summary> Features </summary>
+  * Semi-declarative: Get the best of both worlds and use declarative and imperative at the same time, like HaliadeOS (formely ZereneOS).
+  * Sway desktop: Use a pre-configured and cool desktop using Wayland and many other modern programs.
+  * Arch muscle memory: Sinix is Arch-based, so your regular Arch Linux commands will work.
   
 </details>
 
