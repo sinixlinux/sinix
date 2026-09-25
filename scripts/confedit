@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/bin/bash nano /etc/sinix/config.lua
