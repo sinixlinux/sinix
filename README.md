@@ -29,13 +29,15 @@
 | Bootloader | ??? |
 | Greeter | ly |
 | Display Manager | ly |
-| Desktop | labwc |
+| Desktop | Hyprland/Niri/MangoWC/LabWC |
 | Dotfiles | hakuimaku/hakuspace |
 | Notifications | mako |
 | App Launcher | rofi |
 | Terminal | alacritty |
 | Shell | fish |
 | Text Editor | neovim/nano |
+##### The WM found in screenshots is MangoWC.
+
 </details>
 
 <details>
