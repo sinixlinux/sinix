@@ -26,15 +26,15 @@
 | Distro | Sinix Linux |
 | Distro Type | Arch-based, semi-declarative |
 | Init System | Systemd |
-| Bootloader | grub |
+| Bootloader | ??? |
 | Greeter | ly |
 | Display Manager | ly |
 | Desktop | labwc |
-| Dotfiles | hakuspace |
+| Dotfiles | hakuimaku/hakuspace |
 | Notifications | mako |
 | App Launcher | rofi |
-| Terminal | kitty |
-| Shell | *your choice* |
+| Terminal | alacritty |
+| Shell | fish |
 | Text Editor | neovim/nano |
 </details>
 
