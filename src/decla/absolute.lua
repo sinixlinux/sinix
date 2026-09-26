@@ -11,7 +11,7 @@ end
 
 local function is_package_installed(pkg)
 
-	local success, _ = run_cmd("pacman -Qi " .. pkg)
+	local success, _ = run_cmd("/usr/bin/pacman -Qi " .. pkg)
 	return success
 end
 
@@ -27,7 +27,7 @@ function sys_engine.apply_packages(desired_packages)
 			print("[OK, BUT] " .. pkg .. " is already installed.")
 		else
 			print("[+] Installing package " .. pkg .. "...")
-			local success, err = run_cmd("pacman -Sy --noconfirm " .. pkg)
+			local success, err = run_cmd("/usr/bin/pacman -Sy --noconfirm " .. pkg)
 			if not success then
 				print("[ERROR] Failed to install " .. pkg .. "with error code: " .. tostring(err))
 			end
