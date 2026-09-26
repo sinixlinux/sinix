@@ -6,7 +6,7 @@
 
 <div align="center">
   
-### Sinix Linux is an arch-based Linux distro that adds **semi-declarative configuration** and a customized **LabWC** desktop made by my boy hakuimaku.
+### Sinix Linux is an arch-based Linux distro that adds **semi-declarative configuration** and a **customized multi-WM choice desktop** made by my boy hakuimaku.
 
 </div>
 
@@ -49,11 +49,11 @@
 
  - [x] Install arch
 
- - [x] Set up Labwc and dots
+ - [x] Set up things and dotfiles
        
- - [ ] Set up the development environment so we can start making Sinix
+ - [x] Set up the development environment so we can start making Sinix
 
- - [ ] Set up UX, declaration and rest
+ - [x] Set up UX, declaration and rest
        
  - [ ] Make a installer
   
@@ -67,6 +67,15 @@
   * Custom LabWC desktop: Use a pre-configured and cool desktop using Wayland and many other modern programs.
     
   * Arch muscle memory: Sinix is Arch-based, so your regular Arch Linux commands will work.
+  
+</details>
+
+<details>
+<summary> Screenshots </summary>
+
+  ![1](assets/rice.png)
+
+  ![2](assets/image.png)
   
 </details>
 
