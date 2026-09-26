@@ -80,6 +80,9 @@
 
   INTENSE RICE!! >:333
   ![2](intense-rice.png)
+
+  look! its rofi! and cybervis!
+  ![3](assets/image.png)
   
 </details>
 
