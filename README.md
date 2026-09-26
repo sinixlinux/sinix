@@ -12,7 +12,7 @@
 
 <div align="center">
   
-  ![a](assets/logo.png)
+  ![a](assets/wallpapers/wallpaper-3.png)
 
 </div>
 
