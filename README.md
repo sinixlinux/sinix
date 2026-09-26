@@ -73,8 +73,10 @@
 <details>
 <summary> Screenshots </summary>
 
+  cool rice
   ![1](assets/rice.png)
 
+  INTENSE RICE!! >:333
   ![2](intense-rice.png)
   
 </details>
