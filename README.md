@@ -75,7 +75,7 @@
 
   ![1](assets/rice.png)
 
-  ![2](assets/image.png)
+  ![2](intense-rice.png)
   
 </details>
 
