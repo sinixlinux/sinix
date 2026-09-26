@@ -37,7 +37,7 @@ end
 
 function sys_engine.apply_services(desired_services)
 	print("[...] Enforcing services")
-	for services, state in pairs(desired_services) do
+	for service, state in pairs(desired_services) do
 		local is_enabled = is_service_enabled(service)
 
 		if state == "enabled" and not is_enabled then
