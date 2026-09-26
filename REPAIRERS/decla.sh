@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "WARN: ensure you have the repo cloned first!"
+echo "WARN: Ensure you have this repo cloned first!"
 sleep 6
 
 cd
