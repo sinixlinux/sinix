@@ -2,7 +2,7 @@
 
 ###### im using a custom banner, but ill put normal description for ppl who use Firefox;
 
-Sinix Linux is an arch-based Linux distro that comes with imperative-declarative configuration and a script to set up a graphical environment with MY configs.
+Sinix Linux is a modular, imperative-declarative arch-based Linux distro focused on simplicity, modularity and aesthetics.
 
 ![a](assets/wallpapers/city-from-hill.png)
 
