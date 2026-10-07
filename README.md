@@ -17,7 +17,7 @@
 | Init System | Systemd |
 | Bootloader | ??? |
 | Desktop | no desktop, minimal |
-| Notifications | kde |
+| Notifications | ??? |
 | Shell | fish |
 | Text Editor | neovim/nano |
 
