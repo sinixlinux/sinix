@@ -1,9 +1,6 @@
 ![Banner](https://readmewidgets.dev/sinixlinux/banner?v=1)
-<div align="center">
-  
-  ![a](assets/wallpapers/city-from-hill.png)
-
-</div>
+Sinix Linux is an arch-based Linux distro that comes with imperative-declarative configuration and a script to set up a graphical environment with MY configs
+![a](assets/wallpapers/city-from-hill.png)
 
 ### Get started:
 <details>
