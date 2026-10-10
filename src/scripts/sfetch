@@ -1,0 +1,53 @@
+#!/bin/bash
+
+USER_N_MORE="$USER@$HOSTNAME"
+ASCII_ART="/tmp/sfetch/logo.txt"
+OS="os: sinix"
+MEMORY="memory: $(free -h | awk '/^Mem:/ {print $3}')/$(free -h | awk '/^Mem:/ {print $2}')"
+DE_OR_WM="de/wm: $XDG_CURRENT_DESKTOP"
+MEDIA="media: $(playerctl metadata --format "{{ artist }} - {{ title }}")"
+
+
+set -e
+
+# /// sfetch (by tspillow)
+# sfetch is a stylized fetch program for sinix
+# i mostly don't put comments in my code, but ill put this here.
+# --------------------------------------------------------------
+
+mkdir -p /tmp/sfetch/
+echo "                                             
+                                                    
+                          =+##                      
+                -=*%%#+*#*+#######                  
+             =*+=#%%%%#%#*#######=+##               
+           -=*%%#%%%%###**#######+*##*              
+          -=*%%#%%%%####*##*####+*##**+*            
+          -+#%##%%%####*##==*##*+*#**+=*            
+          -+##########*### -+*## -+**               
+          -=**#######**##**##                       
+            -*###*##**######+=****                  
+             -+#####+##**##*+*****=*                
+               ==+*=*#**************+*++            
+                   -=*-=***+***********++           
+                 -+*  -=+*+=+*********+++           
+          -+++**-+****** -=+*******+*+++++          
+         -+*****+*******=+********++++++++          
+           -+**+*******++******+*++++++++           
+            -+==++****++*++++++*++++++              
+              -=+-=+*+++++++++=++++++               
+                  -+++===+++=+                      
+                                                    
+" > $ASCII_ART
+
+cat $ASCII_ART
+echo $USER_N_MORE
+echo $OS
+echo $MEMORY
+echo $DE_OR_WM
+echo $MEDIA
+echo "---------------(()_-->_--------------"
+echo "Don't forget to drink water!"
+
+
+                                                                                         
