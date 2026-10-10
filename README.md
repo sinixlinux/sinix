@@ -47,4 +47,8 @@ Sinix's parent distro — <https://archlinux.org/>
 
 Releases — <https://github.com/sinixlinux/sinix/releases/>
 
-Our color scheme <https://github.com/sinixlinux/frost/>
+Our color scheme — <https://github.com/sinixlinux/frost/>
+
+Discord server — <https://discord.gg/VT8TJq4Uj7>
+
+-----------------------------------------------------
