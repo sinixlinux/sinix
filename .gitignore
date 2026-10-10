@@ -1,0 +1,65 @@
+# Archiso build output
+
+/work/
+/airootfs/root/.cache/
+/airootfs/var/cache/pacman/pkg/
+
+# Package artifacts
+
+*.pkg.tar
+.pkg.tar.
+*.tar.zst
+*.tar.gz
+
+Logs
+
+*.log
+.log.
+
+# Temporary files
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Editor and IDE
+
+.idea/
+.vscode/
+*.code-workspace
+
+# Developer-specific configuration
+
+.env
+.env.*
+!.env.example
+
+# Credentials and signing keys
+
+*.key
+*.pem
+*.p12
+*.pfx
+*.asc
+secrets/
+credentials/
+
+# Cache directories
+
+.cache/
+pycache/
+*.py[cod]
+
+# Test artifacts
+
+/coverage/
+/test-results/
+
+# Local build configuration
+
+/local.conf
+/build.conf.local
