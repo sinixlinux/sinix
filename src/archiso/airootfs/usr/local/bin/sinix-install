@@ -1,0 +1,80 @@
+#!/bin/bash
+
+set -e
+
+# author: tspillow
+# ------------------------
+# Welcome to Sinix Linux.
+# In order to install Sinix in the correct target drive, change DISK= to your desired disk drive.
+# 
+# SATA drives: /dev/sda (First drive) /dev/sdb (Second drive) -- /dev/sdX1 = EFI System | /dev/sdX2 = Linux root (x86_64)
+# NVME drives: /dev/nvme0n1 (First drive) /dev/nvme1n1 (Second drive) -- /dev/nvmeXn1p1 = EFI System | /dev/nvmeXn1p2 = Linux root (x86_64)
+# VirtIO drives: /dev/vda (First drive) -- /dev/vda1 = EFI System | /dev/vda2 = Linux root (x86_64) 
+DISK="/dev/sda"
+EFI_PARTITION="/dev/sda1" 
+ROOT_PARTITION="/dev/sda2"
+ROOT_UUID=$(blkid -s PARTUUID -o value "$ROOT_PARTITION")
+
+
+GITHUB_REPO="https://github.com/sinixlinux/sinix"
+DECLARE_CFG_DIR="/sinix/declare/config.lua"
+SHARE_DIR="/sinix/share/"
+SCRIPTS_DIR="/usr/local/bin"
+
+echo "
+/ / / / // / / / 
+/ / / / / / 
+ / / / // 
+/ / / / /// // / / 
+    // /  / / / // 
+         // / / / 
+          / / // /
+         //// ///// 
+ // / / / / //  //
+/////  / // / / "
+echo "^^ / Welcome to the Sinix Linux installer!"
+sleep 1
+echo "-O / First, i have detected that this is your drive: $DISK"
+sleep 2
+echo "-O / So i will partition the disks like this:"
+echo "$EFI_PARTITION - EFI System"
+echo "$ROOT_PARTITION - Your root system"
+sleep 1
+read -p "oUo / Proceed with installation? [Y/n]: " yn
+case $yn in 
+    [Yy]* )
+	clear
+	echo "..."
+        echo "Here we go."
+        mkfs.ext4 $ROOT_PARTITION
+	mkfs.vfat -F 32 $EFI_PARTITION
+	mount $ROOT_PARTITION /mnt
+        mount --mkdir $EFI_PARTITION /mnt/boot/efi
+        pacstrap -K /mnt base base-devel linux linux-firmware nano networkmanager lua git
+	genfstab -U /mnt >> /mnt/etc/fstab 
+	arch-chroot /mnt bootctl-install --esp-path=$EFI_PARTITION
+	arch-chroot /mnt mkdir -p /boot/loader/entries
+	arch-chroot /mnt echo "
+	timeout 5
+	default sinix.conf
+	console-mode max
+	editor no
+	" > /boot/loader/loader.conf
+	arch-chroot /mnt echo "
+	title   Sinix Linux
+	linux   /vmlinuz-linux
+	initrd  /initramfs-linux.img
+	options root=PARTUUID=$ROOT_UUID rw
+	" > /boot/loader/entries/sinix.conf
+	cd && git clone $GITHUB_REPO
+	cd sinix
+	mkdir -p /sinix/declare/src
+	mkdir -p $SHARE_DIR
+	cp src/decla/* /sinix/declare/src
+	cp example_config.lua $DECLARE_CFG_DIR
+	cp src/scripts/* $SCRIPTS_DIR
+	cp -r assets/logos/ $SHARE_DIR
+	cp -r assets/wallpapers/ $SHARE_DIR
+	
+	
+
