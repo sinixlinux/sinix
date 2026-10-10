@@ -12,8 +12,7 @@ lua $SRC_DIR/main.lua
 
 echo ":: Overwriting existing dotfiles symlink..."
 echo "[!!] EDIT THIS FILE (/usr/local/bin/sinix-rebuild) TO MAKE IT USE YOUR CUSTOM FOLDER."
-echo "if already feelin' comfortable, delete the 'sleep 10' from this script, and both the
-notice above and this text here."
+echo "if already feelin' comfortable, delete the 'sleep 10' from this script, and this text here."
 sleep 10
 ln -sf $DOTFILES_DIR ~/.config
 echo ":)"
